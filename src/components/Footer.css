@@ -1,0 +1,29 @@
+footer {
+    grid-row: 3;
+    grid-column: 1;
+    padding: 1.0em;
+    background: var(--secondary-color);
+    cursor: pointer;
+
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 2fr;
+    gap: 0 0.8em;
+    justify-items: center;
+    align-items: center;
+}
+
+footer:hover {
+    background: var(--tertiary-color);
+    text-shadow: none;
+}
+
+footer img {
+    justify-self: end;
+    width: 30px;
+}
+
+footer h6 {
+    justify-self: start;
+}
+  

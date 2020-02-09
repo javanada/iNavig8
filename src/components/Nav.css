@@ -1,0 +1,45 @@
+nav {
+    grid-row: 2;
+    grid-column: 1;
+
+    display: grid;
+    grid-template-rows: repeat(4, 1fr) 4fr;
+    /* grid-template-columns: 1fr 2fr; */
+    gap: 0;
+    justify-items: stretch;
+    align-items: center;
+}
+
+nav div.nav-area {
+    padding: 1.0em 0;
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 0 0.8em;
+    justify-items: center;
+    align-items: center;
+}
+
+
+nav div.nav-area:hover {
+    background: var(--tertiary-color);
+    text-shadow: none;
+}
+
+nav div.nav-area img {
+    justify-self: end;
+    width: 30px;
+}
+
+nav div.nav-area h6 {
+    justify-self: start;
+    margin-bottom: 0;
+}
+
+.highlight {
+    background: white;
+}
+
+.no-highlight {
+    background: var(--secondary-color);
+}
